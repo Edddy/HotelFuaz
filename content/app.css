@@ -1,0 +1,272 @@
+﻿/*----------------------------------------------------------
+The base color for this template is #5c87b2. If you'd like
+to use a different color start by replacing all instances of
+#5c87b2 with your new color.
+----------------------------------------------------------*/
+body {
+	font-family: "Arial Narrow", Arial, Helvetica, sans-serif;	
+	margin: 0;
+	background-color: #cccccc;
+}
+a:link
+{
+    color: #B57D62;
+    text-decoration: underline;
+}
+a:visited
+{
+    color: #B57D62;
+}
+a:hover
+{
+    color: #1d60ff;
+    text-decoration: none;
+}
+a:active
+{
+    color: #B57D62;
+}
+
+p, ul
+{
+    margin-bottom: 20px;
+    line-height: 1.6em;
+}
+
+/* HEADINGS   
+----------------------------------------------------------*/
+h1
+{
+    font-size: 2em;
+    padding-bottom: 0;
+    margin-bottom: 0;
+}
+h2
+{
+    padding: 0 0 10px 0;
+}
+h3
+{
+    font-size: 120%;
+    color: #333;
+    margin: 0;
+}
+h4
+{
+    font-size: 1.1em;
+}
+h5, h6
+{
+    font-size: 1em;
+}
+
+
+/* PRIMARY LAYOUT ELEMENTS   
+----------------------------------------------------------*/
+#wrapper 
+{
+	width: 700px;
+	margin: 55px auto 0;
+	background: #ffffff url(images/back-top.jpg) no-repeat top;
+}         
+#header, #content, #direccion, #footer {
+	clear: both;
+}
+#logo { 
+	float: left;
+	background: transparent url(images/logo-hotel-fuaz.jpg) no-repeat;
+	margin: -48px 20px 20px;
+}
+#logo a  
+{
+	display: block;
+	height: 141px;
+	width: 85px;
+	text-indent: -9000px;
+}	
+
+#nav {
+	float: right;
+	height: 90px;
+	margin: 0;
+	
+}
+#nav ul li, #nav ul li a { 
+	float: left; 
+	display: block; 
+	height: 83px; 
+	width: 90px; 
+}
+#content {
+	min-height: 400px;
+        padding: 20px;
+}
+#direccion  
+{
+	font-size: 80%;
+    color: #333;
+    text-align: center;
+}    
+             
+#footer {
+	background: #cccccc url(images/back-bottom.jpg) no-repeat top;	
+    padding: 20px;
+    font-size: 11px;
+    
+}
+
+#footer a, #footer a:visited {text-decoration: none; color: Black;font-size: 11px;}
+
+/* NAV 
+----------------------------------------------------------*/
+#nav ul li { text-indent: -9000px; }
+#habitaciones {	background: transparent url(images/habitaciones.jpg) no-repeat;}
+#servicios { background: transparent url(images/servicios.jpg) no-repeat; }
+#ubicacion{ background: transparent url(images/ubicacion.jpg) no-repeat; }
+#galeria{ background: transparent url(images/galeria.jpg) no-repeat; }
+#reservas { background: transparent url(images/reservas.jpg) no-repeat; }
+
+
+
+/* FORM LAYOUT ELEMENTS   
+----------------------------------------------------------*/
+
+.formulario 
+{
+    margin: 0;
+    padding: 1em;
+    border: 0px solid #CCC;
+}
+
+.formulario p 
+{
+    margin: 2px 12px 10px 10px;
+}
+
+.formulario label 
+{
+    display: inline-block;
+    width: 150px;
+}
+
+.formulario label.block 
+{
+    display: block;
+}
+
+.formulario input
+{
+    width: 300px;
+    border: 1px solid #CCC;
+}
+
+.formulario textarea {width: 90%}
+.formulario .bigbutton {font-size: 110%; font-weight: bold; padding: 5px 10px; width: auto;}
+.formulario .fecha {width: 100px}
+.formulario .numero {width: 100px}
+.formulario .checkbox {width: auto}
+
+
+/* TABLE
+----------------------------------------------------------*/
+table td {vertical-align: top;}
+
+table.tabla
+{
+  border: solid 1px #e8eef4;
+  border-collapse: collapse;
+}
+
+table.tabla td 
+{
+  padding: 5px;   
+  border: solid 1px #e8eef4;
+}
+
+table.tabla th
+{
+  padding: 6px 5px;
+  text-align: left;
+  background-color: #e8eef4; 
+  border: solid 1px #e8eef4;   
+}
+
+/* MISC  
+----------------------------------------------------------*/
+.clear
+{
+    clear: both;
+}
+
+.error
+{
+    color:Red;
+}
+
+.field-validation-error
+{
+    color: #ff0000;
+}
+
+.input-validation-error
+{
+    border: 1px solid #ff0000;
+    background-color: #ffeeee;
+}
+
+.validation-summary-errors
+{
+    font-weight: bold;
+    color: #ff0000;
+}
+.textoimportante {font-size: 120%}
+div.info { margin: 10px 0; border: 2px solid #006AAA; background-color: #E1F4FF; padding: 5px;}
+
+/* home
+----------------------------------------------------------*/
+#fotos {clear: both; margin-bottom: 20px;}
+#fotos p {margin: 0; padding: 0;}
+#serviciohome span {Padding: 5px 10px 5px 28px; display:block; float: left; }
+
+#servicio ul {margin: 0; padding: 0;list-style:none;}
+#servicio li {Padding: 10px 5px 10px 50px; }
+
+
+/* Iconos
+----------------------------------------------------------*/
+.telefono {background: url( /content/images/telefono.gif ) no-repeat left; padding-left: 50px;}
+.ac {background: url( /content/images/ac.gif ) no-repeat left; padding-left: 50px;}
+.tv {background: url( /content/images/tv.gif ) no-repeat left; padding-left: 50px;}
+.pc {background: url( /content/images/pc.gif ) no-repeat left; padding-left: 50px;}
+.banio {background: url( /content/images/banioprivado.gif ) no-repeat left; padding-left: 50px;}
+.garage {background: url( /content/images/garage.gif ) no-repeat left; padding-left: 50px;}
+.desayuno {background: url( /content/images/desayuno.gif ) no-repeat left; padding-left: 50px;}
+.pileta {background: url( /content/images/pileta.gif ) no-repeat left; padding-left: 50px;}
+.wifi {background: url( /content/images/wifi.gif ) no-repeat left; padding-left: 50px;}
+.camaextra {background: url( /content/images/camaextra.gif ) no-repeat left; padding-left: 50px;}
+.Minibar {background: url( /content/images/minibar.gif ) no-repeat left; padding-left: 50px;}
+.hidro {background: url( /content/images/hidro.gif ) no-repeat left; padding-left: 50px;}
+.serviciohabitacion {background: url( /content/images/serviciohabitacion.gif ) no-repeat left; padding-left: 50px;}
+
+span.telefono {background: url( /content/images/telefono24.gif ) no-repeat left; padding-left: 28px;}
+span.ac {background: url( /content/images/ac24.gif ) no-repeat left; padding-left: 28px;}
+span.tv {background: url( /content/images/tv24.gif ) no-repeat left; padding-left: 28px;}
+span.pc {background: url( /content/images/pc24.gif ) no-repeat left; padding-left: 28px;}
+span.banio {background: url( /content/images/banioprivado24.gif ) no-repeat left; padding-left: 28px;}
+span.garage {background: url( /content/images/garage24.gif ) no-repeat left; padding-left: 28px;}
+span.desayuno {background: url( /content/images/desayuno24.gif ) no-repeat left; padding-left: 28px;}
+span.pileta {background: url( /content/images/pileta24.gif ) no-repeat left; padding-left: 28px;}
+span.wifi {background: url( /content/images/wifi24.gif ) no-repeat left; padding-left: 28px;}
+span.camaextra {background: url( /content/images/camaextra24.gif ) no-repeat left; padding-left: 28px;}
+span.Minibar {background: url( /content/images/minibar24.gif ) no-repeat left; padding-left: 28px;}
+span.hidro {background: url( /content/images/hidro24.gif ) no-repeat left; padding-left: 28px;}
+span.serviciohabitacion {background: url( /content/images/serviciohabitacion24.gif ) no-repeat left; padding-left: 28px;}
+
+
+/* galeria
+----------------------------------------------------------*/
+.galeria {margin: 10px 0}
+.galeria img {padding: 4px; margin: 0 4px 4px 0; border: 1px solid #ccc}
+
+
+
